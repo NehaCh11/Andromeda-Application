@@ -1,38 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# *Auction Application on Andromeda*
 
-## Getting Started
+## *Project Description*
 
-First, run the development server:
+The Auction Application is a decentralized auction platform built on the Andromeda Protocol. It allows users to conduct custom NFT auctions seamlessly, enabling sellers to list NFTs and buyers to bid using various token options until the auction expires. The highest bidder wins the NFT, ensuring a secure and transparent exchange.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## *Key Features*
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- *Customizable Auctions*: Flexible setup options for different auction types.
+- *Authorized and Open Auctions*: Configure the auction for specific NFT contracts or allow any NFT to be listed.
+- *Multi-token Bidding*: Supports native chain tokens or CW20 tokens for placing bids.
+- *Secure Transactions*: Ensures that funds are sent to the seller and NFTs to the highest bidder.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## *Additional Features*
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- *Flexible Token Settings*: Restrict or allow specific CW20 tokens for bidding.
+- *User-friendly Design*: Simple process for both sellers and bidders.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## *Embeddable Link*
 
-## Learn More
+https://embeddables.testnet.andromedaprotocol.io/galileo-4/anon-aubction-dApp
 
-To learn more about Next.js, take a look at the following resources:
+## *Future Scope*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Licensing
-
-[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/development/LICENSE/LICENSE.md)
+- *Integration with Additional Wallets*: Enhance accessibility for users across various wallet platforms.
+- *Enhanced UI/UX*: Streamline the bidding and auction creation process for a better user experience.
+- *Analytics Dashboard*: Provide sellers with insights on auction performance and bidder activity.
+- *Multichain Support*: Expand the application to support auctions across multiple blockchain networks.
