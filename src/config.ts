@@ -9,13 +9,11 @@ const CONFIG: IConfig = {
     id: "andromeda",
     collections: [
         {
-            auction:
-                "stars19xddx2zdky6d9jlsrqqyavfycr6pytwmn799vvqsu7fzd4dp7k4q9etd9q",
-            cw721: "stars15l5j0hf80ayj7yuhd6qjhlgwgmgy6apekwpe3k76lgltfhqge3cqemdnth",
-            name: "Auction Example",
+            auction: "andr1cr2q2xxsf6uxwwkfd5d4tjfr82u36v9rmt8sygzfvpymh6evr59s5dc7u3",
+            cw721: "andr13wt5cmsyafky0vcn9gj37ly8r50x8kcc97sw9l6pjsx0ql8xkcvquehwl0",
+            name: "Anon Collection",
             type: ICollectionType.AUCTION,
-            id: "auction",
-            featured: "ANDR1"
+            id: "embeddables-auction-1"
         },
         {
             marketplace:
